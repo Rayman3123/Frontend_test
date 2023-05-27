@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="styles.css">  
+    <title>Testovoe</title>
+</head>
+<body>
+     <!--Хедер-->
+      <nav class="navbar">
+        <div class="navbar_container">
+            <ul class="navbar_categories">
+                <li> <h1 id="category_0" href="" class="navbar_links">Приставки</h1></li>
+                <li> <h1 id="category_1" href="" class="navbar_links">Ноутбуки</h1></li>
+                <li> <h1 id="category_2" href="" class="navbar_links">Портативки</h1></li>
+               
+            </ul>
+            <div class="navbar_settings">
+                <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
+            </div>
+        </div>
+      </nav>
+
+      <!--Форма-->
+      <form action=""></form>
+      <div id="popup1" class="overlay">
+        <div class="popup">
+            <h2>Форма покупки</h2>
+            <a class="close" href="#">&times;</a>
+            <form class="content" action="">
+                <p>Пожалуйста выберите цвет:</p>
+                <input type="radio" id="red" name="color" value="red">
+                <label for="html">Красный</label><br>
+                <input type="radio" id="blue" name="color" value="blue">
+                <label for="css">Синий</label><br>
+                <input type="radio" id="green" name="color" value="green">
+                <label for="css">Зеленый</label><br>
+                <input type="radio" id="yelow" name="color" value="yelow">
+                <label for="javascript">Желтый</label><br>
+                <p>Введите количество:</p>
+                <input type="number" step="1" min="1" max="100" value="1" id="amount" name="amount"/><br>
+                <label for="story">Комментарий:</label><br>
+                <textarea id="story" name="story" rows="5" cols="33">Оставьте свой комментарий</textarea><br>
+                <button id="buy_button">Купить</button>
+            </form>
+        </div>
+      </div>
+
+        <!--Категории-->
+      <div class="categories">   
+        <h1 id="category_0_scroll">Приставки</h1>
+        <div class="categories_container_0">
+            <div class="products_container">
+                <img src="images/igrovaya-pristavka-sony-playstation-5-kupit-800x800.jpg" alt="">
+                <h4>Playstation</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/igrovaya-pristavka-sony-playstation-5-kupit-800x800.jpg" alt="">
+                <h4>Playstation</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/igrovaya-pristavka-sony-playstation-5-kupit-800x800.jpg" alt="">
+                <h4>Playstation</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/igrovaya-pristavka-sony-playstation-5-kupit-800x800.jpg" alt="">
+                <h4>Playstation</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/igrovaya-pristavka-sony-playstation-5-kupit-800x800.jpg" alt="">
+                <h4>Playstation</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/igrovaya-pristavka-sony-playstation-5-kupit-800x800.jpg" alt="">
+                <h4>Playstation</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/igrovaya-pristavka-sony-playstation-5-kupit-800x800.jpg" alt="">
+                <h4>Playstation</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/igrovaya-pristavka-sony-playstation-5-kupit-800x800.jpg" alt="">
+                <h4>Playstation</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/igrovaya-pristavka-sony-playstation-5-kupit-800x800.jpg" alt="">
+                <h4>Playstation</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/igrovaya-pristavka-sony-playstation-5-kupit-800x800.jpg" alt="">
+                <h4>Playstation</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+        </div>
+        <h1 id="category_1_scroll">Ноутбуки</h1>
+        <div class="categories_container_0">
+            <div class="products_container">
+                <img src="images/lenovov13015.jpg" alt="">
+                <h4>Laptop</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/lenovov13015.jpg" alt="">
+                <h4>Laptop</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/lenovov13015.jpg" alt="">
+                <h4>Laptop</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/lenovov13015.jpg" alt="">
+                <h4>Laptop</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/lenovov13015.jpg" alt="">
+                <h4>Laptop</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/lenovov13015.jpg" alt="">
+                <h4>Laptop</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/lenovov13015.jpg" alt="">
+                <h4>Laptop</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/lenovov13015.jpg" alt="">
+                <h4>Laptop</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/lenovov13015.jpg" alt="">
+                <h4>Laptop</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/lenovov13015.jpg" alt="">
+                <h4>Laptop</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/lenovov13015.jpg" alt="">
+                <h4>Laptop</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/lenovov13015.jpg" alt="">
+                <h4>Laptop</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+
+        </div>    
+        <h1 id="category_2_scroll">Портативки</h1>   
+        <div class="categories_container_0">
+            <div class="products_container">
+                <img src="images/switch.png" alt="">
+                <h4>Nintendo switch</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/switch.png" alt="">
+                <h4>Nintendo switch</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/switch.png" alt="">
+                <h4>Nintendo switch</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/switch.png" alt="">
+                <h4>Nintendo switch</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/switch.png" alt="">
+                <h4>Nintendo switch</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/switch.png" alt="">
+                <h4>Nintendo switch</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/switch.png" alt="">
+                <h4>Nintendo switch</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/switch.png" alt="">
+                <h4>Nintendo switch</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/switch.png" alt="">
+                <h4>Nintendo switch</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/switch.png" alt="">
+                <h4>Nintendo switch</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/switch.png" alt="">
+                <h4>Nintendo switch</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/switch.png" alt="">
+                <h4>Nintendo switch</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/switch.png" alt="">
+                <h4>Nintendo switch</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+            <div class="products_container">
+                <img src="images/switch.png" alt="">
+                <h4>Nintendo switch</h4>
+                <p class="product_date"></p>
+                <a class="button" href="#popup1">Купить</a>          
+            </div>
+
+        </div>       
+      </div>
+
+        <!--Футер-->
+        <footer class="footer">
+            <div class="footer_categories_container">
+                <ul class="footer_categories">
+                    <li class="footer_item"><a id="footer_category_0">Приставки</a></li>
+                    <li class="footer_item"><a id="footer_category_1">Ноутбуки</a></li>
+                    <li class="footer_item"><a id="footer_category_2">Портативки</a></li>
+                </ul>
+            </div>
+        </footer>
+      <div class="scroll_top">up</div>
+
+      <script src="scrypts/navigation.js"></script>
+      <script src="scrypts/buttons.js"></script>
+      <script src="scrypts/data.js"></script>
+</body>
+</html>
